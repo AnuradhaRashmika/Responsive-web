@@ -1,0 +1,468 @@
+body {
+    background-color:rgb(246, 243, 238);
+
+}
+
+.page1{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    margin: 0;  
+    
+    
+}
+
+.page1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.page1 .image {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(./images/first.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+
+
+.content1 {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+
+
+.page1 h1{
+    
+    margin: 0;    
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+.page1 p1 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgba(89, 63, 38, 0.881);
+    font-weight: 10;
+    
+}
+
+.but {
+    margin-top: 50px;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-top: 10px ;
+    color:#000000;
+    background-color: rgb(245, 249, 249);
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 30px;
+    border: 2px solid #000000;
+    
+}
+
+.page2{
+
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
+    
+}
+
+.page2 h3 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page2 p {
+    font-size: 20px
+}
+
+.btn1 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    width: 10vw;
+    margin-top: 10px ;
+    color:#000000;
+    background-color:blanchedalmond;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: larger;
+    border: 2px solid #000000;
+}
+
+.page3 {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin: 0;
+    
+}
+
+.page3 img {
+    width: 100%;
+}
+
+.page3 .container{
+
+    
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.content {
+    
+    text-align: center;
+    padding-right: 0 ;
+}
+
+.page3 h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: #b41e1e;
+    text-align: left;
+}
+
+.page3 p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.page4 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    margin: 0;  
+    background-color:blanchedalmond;
+    overflow: hidden;
+
+}
+
+
+.page4 .image {
+    
+    width: 50vw;
+    height: 100vh;
+    
+    background-image: url(./images/five.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.page4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.page4 .content01 {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4 h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #b41e1e;
+    
+}
+
+.page4 p{
+    font-size: 20px;
+}
+
+.page5{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+   
+
+}
+
+.page5 .main-container{
+
+    display: flex;
+    justify-content: right;
+    align-items:top;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 5vw;
+    margin: 5vh 3vw;
+
+    
+
+}
+
+.page5 h1{
+    color:rgb(80, 64, 48) ;
+    font-weight: 10;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.page5 .subc{
+    margin-top: 25px;
+    color: #b41e1e;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.page5 .container2 {
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+.page6 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 228, 196, 0.877);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.page6 .content01{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-top: 60px;
+    padding-left: 60px;
+    
+
+}
+
+footer{
+    width: 91.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    
+   
+    
+
+}
+
+.page6 .container{
+
+    display: flex;
+    grid-gap: 5vw;
+}
+.page6 h1{
+    font-size: 35px;
+    color: #b41e1e;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+} 
+
+.page6 p{
+    font-size: 20px;
+    
+}
+
+.cont{
+    padding-right:2vw ;
+    
+    
+    
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+    
+    
+}
+
+.logo {
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    
+
+}
+
+@media only screen and (max-width : 700px) {
+
+    .page1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        text-align: center; 
+        margin: 0; 
+    }
+
+    .page1 .image {
+        width: 100vw;
+        height: 50vh;
+        background-image: url(./images/first.jpg);
+        background-size: cover;
+        background-position: left;
+    }
+
+    .content1 {
+        width: 100%;
+        height: 50%;
+        margin-bottom:30px ;
+    }
+
+    .page1 p1 {
+       
+        font-size: 30px;
+       
+        
+    }
+
+    .page2{
+
+        
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    
+
+    .page3 {
+
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+.page4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    
+
+}
+
+.page4 .image {
+    
+    width: 100vw;
+    height: 50vh;
+}
+
+
+    .page4 .content01 {
+        width: 100%;
+        height: 50%;
+        
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+        
+    
+    }
+
+    .page5{
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .page6{
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width : 400px) {
+
+    .page6 .container{
+
+        display: flex;
+        flex-direction: column;
+        grid-gap: 5vw;
+    }
+
+  
+}
+
+
+   
+   
+    
+    
+    
+
+
+
+
+
+
+
+
+
